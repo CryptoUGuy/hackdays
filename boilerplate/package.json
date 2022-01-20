@@ -40,7 +40,7 @@
     "solhint:fix": "npx solhint 'contracts/**/*.sol' --fix",
     "prettier:check": "prettier '**/*.{json,sol,md}' --check",
     "prettier:fix": "prettier '**/*.{json,sol,md}' --write",
-    "deploy:ropsten": "hardhat deploy --network ropsten",
+    "deploy:ropsten": "hardhat run --network ropsten scripts/deploy.ts",
     "verify:ropsten": "hardhat verify --network ropsten"
   }
 }
