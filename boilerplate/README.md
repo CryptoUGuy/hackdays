@@ -10,6 +10,10 @@ The boilerplate comes with a sample contract, a test for that contract and a sam
 
 - Git
 
+- Visual studio code editor (Recommended) 
+
+- Install Juan Blanco's solidity extension for Visual studio code
+
 - [Alchemy](https://www.alchemy.com/) account 
 
 - Sample mnemonic (Get a 12 words mnemonic from [https://iancoleman.io/bip39/](https://iancoleman.io/bip39/) or install [Metamask](https://metamask.io/))
