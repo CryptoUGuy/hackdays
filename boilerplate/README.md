@@ -10,11 +10,11 @@ The boilerplate comes with a sample contract, a test for that contract and a sam
 
 - Git
 
-- Visual studio code editor (Recommended) 
+- Visual studio code editor (Recommended)
 
 - Install Juan Blanco's solidity extension for Visual studio code
 
-- [Alchemy](https://www.alchemy.com/) account 
+- [Alchemy](https://www.alchemy.com/) account
 
 - Sample mnemonic (Get a 12 words mnemonic from [https://iancoleman.io/bip39/](https://iancoleman.io/bip39/) or install [Metamask](https://metamask.io/))
 
@@ -43,7 +43,7 @@ $ npm run prettier:check # Check prettier rules
 
 $ npm run prettier:fix # Fix prettier rules
 
-$ npm run deploy:ropsten # Deploy contracts to Ropsten 
+$ npm run deploy:ropsten # Deploy contracts to Ropsten
 
 $ npm run verify:ropsten # Verify contracts in Ropsten
 ```
@@ -56,11 +56,11 @@ There is .env.sample file that contains 3 important variables that shoudn't be p
 - ETHERSCAN_API_KEY
 - ROPSTEN_URL
 
-Create a new file called ```.env```, paste the content of the .env.sample file and replace with your own values.
+Create a new file called `.env`, paste the content of the .env.sample file and replace with your own values.
 
 ## Contract deployment
 
-To deploy your contracts to an Ethereum test network you have to create a new file in the deploy folder for every new contract you are aiming to deploy. 
+To deploy your contracts to an Ethereum test network you have to create a new file in the deploy folder for every new contract you are aiming to deploy.
 
 Then run the command:
 
@@ -79,10 +79,12 @@ Then, copy the deployment address and paste it in to replace `DEPLOYED_CONTRACT_
 ```shell
 $ npm run verify:ropsten DEPLOYED_CONTRACT_ADDRESS <Params>
 ```
-<!-- 
+
+<!--
 ```shell
 npx hardhat verify --network ropsten DEPLOYED_CONTRACT_ADDRESS "Hello, Hardhat!"
 ``` -->
+
 ## Extra resources
 
 [Understanding mnemonics](https://medium.com/mycrypto/the-journey-from-mnemonic-phrase-to-address-6c5e86e11e14)
