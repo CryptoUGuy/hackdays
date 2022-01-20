@@ -1,19 +1,27 @@
 import { expect } from "chai";
-import { ethers } from "hardhat";
+import { Signer } from "ethers";
+import { deployments, ethers } from "hardhat";
+
+import {Greeter, Greeter__factory } from '../typechain'
 
 describe("Greeter", function () {
-  it("Should return the new greeting once it's changed", async function () {
-    const Greeter = await ethers.getContractFactory("Greeter");
-    const greeter = await Greeter.deploy("Hello, world!");
-    await greeter.deployed();
+  let greeterInstance: Greeter 
+  let accounts: Signer[]
+  
+  it("Should return the new greeting once it's changed", async () => {
+    accounts = await ethers.getSigners();
 
-    expect(await greeter.greet()).to.equal("Hello, world!");
+    const GreeterDeployment = await deployments.get('Greeter');
 
-    const setGreetingTx = await greeter.setMyGreeting("Hola, mundo!");
+    greeterInstance = Greeter__factory.connect(GreeterDeployment.address, accounts[0])
+
+    expect(await greeterInstance.greet()).to.equal("Hello, Hardhat!");
+
+    const setGreetingTx = await greeterInstance.setMyGreeting("Hola, mundo!");
 
     // wait until the transaction is mined
     await setGreetingTx.wait();
 
-    expect(await greeter.greet()).to.equal("Hola, mundo!");
+    expect(await greeterInstance.greet()).to.equal("Hola, mundo!");
   });
 });

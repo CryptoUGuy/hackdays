@@ -34,7 +34,7 @@
   },
   "scripts": {
     "compile": "hardhat compile",
-    "test": "hardhat test",
+    "test": "hardhat test --deploy-fixture",
     "lint:check": "eslint '**/*.{js,ts}'",
     "lint:fix": "eslint '**/*.{js,ts}' --fix",
     "solhint:check": "npx solhint 'contracts/**/*.sol'",
