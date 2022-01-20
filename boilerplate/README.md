@@ -24,6 +24,16 @@ The boilerplate comes with a sample contract, a test for that contract and a sam
 
 - Setup .env file (Check [.env setup section](#dotenv-setup))
 
+## Get started
+
+```shell
+$ git clone <>
+
+$ cd boilerplate 
+
+$ npm install
+```
+
 ## Available commands
 
 ```shell
@@ -77,14 +87,19 @@ Assuming you have setup the .env file and you have previously deployed a smart c
 Then, copy the deployment address and paste it in to replace `DEPLOYED_CONTRACT_ADDRESS` in this command:
 
 ```shell
-$ npm run verify:ropsten DEPLOYED_CONTRACT_ADDRESS <Params>
+$ npm run verify:ropsten DEPLOYED_CONTRACT_ADDRESS <Params> 
 ```
 
-<!--
-```shell
-npx hardhat verify --network ropsten DEPLOYED_CONTRACT_ADDRESS "Hello, Hardhat!"
-``` -->
+Note: For complex arguments see [this](https://hardhat.org/plugins/nomiclabs-hardhat-etherscan.html#complex-arguments)
 
 ## Extra resources
 
 [Understanding mnemonics](https://medium.com/mycrypto/the-journey-from-mnemonic-phrase-to-address-6c5e86e11e14)
+
+[Chai assertions](https://ethereum-waffle.readthedocs.io/en/latest/matchers.html)
+
+[Hardhat deploy](https://github.com/wighawag/hardhat-deploy#installation)
+
+[Hardhat deploy sample](https://github.com/wighawag/template-ethereum-contracts)
+
+[Hardhat deploy with forking](https://github.com/wighawag/template-ethereum-contracts/tree/examples/fork-test)
