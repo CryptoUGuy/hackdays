@@ -27,7 +27,7 @@ The boilerplate comes with a sample contract, a test for that contract and a sam
 ## Get started
 
 ```shell
-$ git clone <>
+$ git clone https://github.com/CryptoUGuy/awesome-nft-resources.git
 
 $ cd boilerplate 
 
