@@ -6,6 +6,7 @@ The boilerplate comes with a sample contract, a test for that contract and a sam
 
 ## Pre requisites
 
+
 - Node 16.13.1 (Recommended)
 
 - Git
@@ -16,7 +17,7 @@ The boilerplate comes with a sample contract, a test for that contract and a sam
 
 - [Alchemy](https://www.alchemy.com/) account
 
-- Sample mnemonic (Get a 12 words mnemonic from [https://iancoleman.io/bip39/](https://iancoleman.io/bip39/) or install [Metamask](https://metamask.io/))
+- Sample mnemonic (Get a 12 words mnemonic from [https://iancoleman.io/bip39/](https://iancoleman.io/bip39/) or install Coinbase Wallet from the Corporate App Store. 
 
 - Get Ropsten Ether (Get from https://faucet.egorfine.com/)
 
