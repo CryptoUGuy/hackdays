@@ -82,6 +82,8 @@
 
 ### NFT Development Resources
 
+[Open Zeppelin library](https://github.com/OpenZeppelin/openzeppelin-contracts)
+
 [Crypto Punks source code](https://github.com/larvalabs/cryptopunks)
 
 [Crypto Punks Market](https://github.com/larvalabs/cryptopunks/blob/master/contracts/CryptoPunksMarket.sol)
