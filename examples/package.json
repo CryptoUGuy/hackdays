@@ -47,6 +47,7 @@
     "test:mintableNFT": "hardhat test test/erc721/MintableNFT.test.ts",
     "test:mintableNFTAutoIncrement": "hardhat test test/erc721/mintableNFTAutoIncrement.test.ts",
     "test:metadataNFT": "hardhat test test/erc721/MetadataNFT.test.ts",
+    "test:enumerableNFT": "hardhat test test/erc721/EnumerableNFT.test.ts",
     "test:simpleLottery": "hardhat test test/lottery/SimpleLottery.test.ts"
   }
 }
