@@ -84,10 +84,8 @@ Note: Be sure the account you are using has enought funds.
 
 Assuming you have setup the .env file and you have previously deployed a smart contract.
 
-Then, copy the deployment address and paste it in to replace `DEPLOYED_CONTRACT_ADDRESS` in this command:
-
 ```shell
-$ npm run verify:ropsten DEPLOYED_CONTRACT_ADDRESS <Params> 
+$ npm run verify:ropsten
 ```
 
 Note: For complex arguments see [this](https://hardhat.org/plugins/nomiclabs-hardhat-etherscan.html#complex-arguments)

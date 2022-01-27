@@ -38,7 +38,7 @@
 
 - https://hack.ethglobal.co/nfthack/showcase
 
-## Games
+### Games
 
 [Aavegotchi](https://aavegotchi.com/)
 
@@ -56,7 +56,7 @@
 
 [Relentless](https://loom.games/en/)
 
-# Famous NFTs
+### Famous NFTs
 
 [CryptoPunks](https://www.larvalabs.com/cryptopunks)
 
@@ -68,7 +68,7 @@
 
 [Cool Cats](https://www.coolcatsnft.com/)
 
-## NFT Marketplaces
+### NFT Marketplaces
 
 [Opensea](https://opensea.io/)
 
@@ -80,7 +80,7 @@
 
 [LooksRare](https://looksrare.org/)
 
-## NFT Development Resources
+### NFT Development Resources
 
 [Crypto Punks source code](https://github.com/larvalabs/cryptopunks)
 
