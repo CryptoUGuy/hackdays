@@ -30,7 +30,9 @@
 
 [Cryptozombies Tutorial](https://cryptozombies.io/en/lesson/5)
 
-- [NFT Tutorial Article](https://medium.com/pinata/how-to-build-erc-721-nfts-with-ipfs-e76a21d8f914)
+[NFT Tutorial Article](https://medium.com/pinata/how-to-build-erc-721-nfts-with-ipfs-e76a21d8f914)
+
+[Creating your first NFT smart contract](https://docs.opensea.io/docs/creating-an-nft-contract)
 
 ### Hackathons
 
