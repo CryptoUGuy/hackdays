@@ -1,9 +1,9 @@
 /**
-    Introduction
+    This contract implements a simple lottery that uses a commit-reveal technique. 
 
-    This contract implements a simple lottery that uses a commit-reveal technique.
+    Randomness in Ethereum is a complex topic I suggest to read  https://fravoll.github.io/solidity-patterns/randomness.html.
 
-    Randomness in Ethereum is a complex topic and another approach that can be used is relying in an external Oracle like Chainlink.
+    Another approach that can be used is an external Oracle like Chainlink.
 
     The following readings have more information: 
 
@@ -17,12 +17,7 @@
 
     Case Studies
 
-    - https://chain.link/case-studies/aavegotchi
-
-    About randomness
-
-    https://fravoll.github.io/solidity-patterns/randomness.html
-
+    - https://chain.link/case-studies/aavegotchi   
 */
 
 // SPDX-License-Identifier: MIT
