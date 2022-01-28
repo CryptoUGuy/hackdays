@@ -52,6 +52,7 @@
     "test:balanceReader": "ENABLE_FORKING=true hardhat test test/forking/BalanceReader.test.ts",
     "test:simpleNFTMarketplace": "hardhat test test/nft-marketplace/SimpleNFTMarketplace.test.ts",
     "test:concertFactory": "hardhat test test/concert-tickets/ConcertFactory.test.ts",
-    "test:simpleERC1155": "hardhat test test/erc1155/SimpleERC1155.test.ts"
+    "test:simpleERC1155": "hardhat test test/erc1155/SimpleERC1155.test.ts",
+    "test:simpleConcertTicket": "hardhat test test/concert-tickets/SimpleConcertTicket.test.ts"
   }
 }
