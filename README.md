@@ -124,3 +124,4 @@
 
 [Smart contract lottery using Chainlink](https://github.com/PatrickAlphaC/smartcontract-lottery)
 
+[Lazy minting](https://nftschool.dev/tutorial/lazy-minting/#how-it-works)
