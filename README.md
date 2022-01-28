@@ -38,7 +38,9 @@
 
 ### Hackathons
 
-- https://hack.ethglobal.co/nfthack/showcase
+[NFT Hack 2021](https://showcase.ethglobal.com/nfthack)
+
+[NFT Hack 2022](https://showcase.ethglobal.com/nfthack2022)
 
 ### Games
 
@@ -57,6 +59,8 @@
 [Axie Infinity](https://axieinfinity.com/)
 
 [Relentless](https://loom.games/en/)
+
+[DeRace](https://derace.gitbook.io/derace/)
 
 ### Famous NFTs
 
