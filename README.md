@@ -109,3 +109,18 @@
 [Open Zeppelin Contracts Wizard](https://docs.openzeppelin.com/contracts/4.x/wizard)
 
 [Mint Your Own Punks in Original 24x24 Pixel Format or With 2X / 4X / 8X Zoom](https://github.com/cryptopunksnotdead/programming-cryptopunks/blob/master/01_mint.md)
+
+[How To Generate Punks, Algorithmically - Paint by Numbers](https://github.com/cryptopunksnotdead/programming-cryptopunks/blob/master/04_generate_ii.md)
+
+[How To Change Skin Tones](https://github.com/cryptopunksnotdead/programming-cryptopunks/blob/master/07_humans.md)
+
+[Rarity source code](https://github.com/andrecronje/rarity/blob/main/core/rarity.sol)
+
+[Axie Infinity contracts](https://github.com/axieinfinity/public-smart-contracts)
+
+[Random number generation](https://github.com/axiomzen/eth-random)
+
+[Random Number Generation for Ethereum Dapps](https://www.youtube.com/watch?v=qkxG1dPU6iI)
+
+[Smart contract lottery using Chainlink](https://github.com/PatrickAlphaC/smartcontract-lottery)
+

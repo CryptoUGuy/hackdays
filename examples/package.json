@@ -50,6 +50,7 @@
     "test:enumerableNFT": "hardhat test test/erc721/EnumerableNFT.test.ts",
     "test:simpleLottery": "hardhat test test/lottery/SimpleLottery.test.ts",
     "test:balanceReader": "ENABLE_FORKING=true hardhat test test/forking/BalanceReader.test.ts",
-    "test:simpleNFTMarketplace": "hardhat test test/nft-marketplace/SimpleNFTMarketplace.test.ts"
+    "test:simpleNFTMarketplace": "hardhat test test/nft-marketplace/SimpleNFTMarketplace.test.ts",
+    "test:concertFactory": "hardhat test test/concert-tickets/ConcertFactory.test.ts"
   }
 }
