@@ -3,7 +3,7 @@ import { BigNumber, Signer } from "ethers";
 import { formatUnits, parseUnits } from "ethers/lib/utils";
 import { ethers } from "hardhat";
 
-import { ConcertFactory, ConcertFactory__factory, CUSDC, CUSDC__factory, ConcertNFTicket, ConcertNFTicket__factory, ConcertMarketplace__factory } from '../../typechain'
+import { ConcertFactory, ConcertFactory__factory, CUSDC, CUSDC__factory, ConcertNFTicket__factory, ConcertMarketplace__factory } from '../../typechain'
 
 describe("ConcertFactory tests", () => {
     let instance: ConcertFactory

@@ -1,14 +1,13 @@
-import { expect } from "chai";
 import { Signer } from "ethers";
 import { ethers } from "hardhat";
 import { parseUnits } from "ethers/lib/utils";
 
 import { SimpleLottery, SimpleLottery__factory } from '../../typechain'
+import { increaseTimeBy } from "../utils";
 
 const ONE_DAY_IN_SECONDS = 60 * 60 * 24
 const FIVE_MINUTES_IN_SECONDS = 60 * 5
 
-const increaseTimeBy = (ms: number) => ethers.provider.send('evm_increaseTime', [ms])
 
 describe("SimpleLottery tests", () => {
     let instance: SimpleLottery
