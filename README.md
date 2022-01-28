@@ -26,6 +26,8 @@
 
 [ERC1155](https://github.com/ethereum/eips/issues/1155)
 
+[ERC1155](https://ethereum.org/en/developers/docs/standards/tokens/erc-1155/)
+
 ### Tutorials
 
 [Cryptozombies Tutorial](https://cryptozombies.io/en/lesson/5)
@@ -82,6 +84,10 @@
 
 ### NFT Development Resources
 
+[Opensea testnet](https://testnets.opensea.io/)
+
+[ERC-1155: The Final Token Standard on Ethereum](https://enjin.io/blog/erc-1155-token-standard-ethereum)
+
 [Open Zeppelin library](https://github.com/OpenZeppelin/openzeppelin-contracts)
 
 [Crypto Punks source code](https://github.com/larvalabs/cryptopunks)
@@ -101,3 +107,5 @@
 [Pinata](https://www.pinata.cloud/)
 
 [Open Zeppelin Contracts Wizard](https://docs.openzeppelin.com/contracts/4.x/wizard)
+
+[Mint Your Own Punks in Original 24x24 Pixel Format or With 2X / 4X / 8X Zoom](https://github.com/cryptopunksnotdead/programming-cryptopunks/blob/master/01_mint.md)
