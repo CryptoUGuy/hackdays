@@ -6,19 +6,29 @@ The boilerplate comes with a sample contract, a test for that contract and a sam
 
 ## Pre requisites
 
-- Node 16.13.1 (Recommended)
+- Install NVM (Node Version Manager) and use Node 16.13.1
 
-- Git
+```shell
+# From NVM Guide (https://github.com/nvm-sh/nvm#installing-and-updating
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 
-- Visual studio code editor (Recommended)
+nvm install 16.13.1
+nvm use 16.13.1
 
-- Install Juan Blanco's solidity extension for Visual studio code
+```
+
+- Install [Visual Studio Code](https://code.visualstudio.com/) (Recommended IDE)
+
+- Install [Juan Blanco's Solidity Extension](https://marketplace.visualstudio.com/items?itemName=JuanBlanco.solidity) for Visual studio code
 
 - [Alchemy](https://www.alchemy.com/) account
 
-- Sample mnemonic (Get a 12 words mnemonic from [https://iancoleman.io/bip39/](https://iancoleman.io/bip39/) or install [Metamask](https://metamask.io/))
+- Sample mnemonic (Get a 12 words mnemonic from [https://iancoleman.io/bip39/](https://iancoleman.io/bip39/) or install Coinbase Wallet from the Corporate App Store.
 
-- Get Ropsten Ether (Get from https://faucet.egorfine.com/)
+- Get Ropsten Ether from a faucet:
+    * [https://faucet.egorfine.com](https://faucet.egorfine.com/)
+    * [https://www.moonborrow.com/](https://www.moonborrow.com/) 
+    * [https://faucet.metamask.io/](https://faucet.metamask.io/)
 
 - Get an Etherscan API Key (Check instructions [here](https://docs.etherscan.io/getting-started/viewing-api-usage-statistics))
 
@@ -29,7 +39,7 @@ The boilerplate comes with a sample contract, a test for that contract and a sam
 ```shell
 $ git clone https://github.com/CryptoUGuy/awesome-nft-resources.git
 
-$ cd boilerplate 
+$ cd boilerplate
 
 $ npm install
 ```
