@@ -6,14 +6,20 @@ The boilerplate comes with a sample contract, a test for that contract and a sam
 
 ## Pre requisites
 
+- Install NVM (Node Version Manager) and use Node 16.13.1
 
-- Node 16.13.1 (Recommended)
+```shell
+# From NVM Guide (https://github.com/nvm-sh/nvm#installing-and-updating
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 
-- Git
+nvm install 16.13.1
+nvm use 16.13.1
 
-- Visual studio code editor (Recommended)
+```
 
-- Install Juan Blanco's solidity extension for Visual studio code
+- Install [Visual Studio Code](https://code.visualstudio.com/) (Recommended IDE)
+
+- Install [Juan Blanco's Solidity Extension](https://marketplace.visualstudio.com/items?itemName=JuanBlanco.solidity) for Visual studio code
 
 - [Alchemy](https://www.alchemy.com/) account
 
