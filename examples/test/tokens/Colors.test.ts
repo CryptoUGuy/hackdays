@@ -2,7 +2,7 @@ import { expect } from "chai";
 import { Signer } from "ethers";
 import { deployments, ethers } from "hardhat";
 
-import { Colors, Colors__factory } from "../typechain";
+import { Colors, Colors__factory } from "../../typechain";
 
 describe("Colors", function () {
   let colorsInstance: Colors;
@@ -11,8 +11,9 @@ describe("Colors", function () {
 
   it("should deploy", async () => {
     [owner, addr1] = await ethers.getSigners();
+    const colorsFactory = new Colors__factory(owner)
+    const ColorsDeployment = await colorsFactory.deploy()
 
-    const ColorsDeployment = await deployments.get("Colors");
 
     colorsInstance = Colors__factory.connect(ColorsDeployment.address, owner);
 
@@ -41,9 +42,8 @@ describe("Colors", function () {
   });
 
   it("Should mix new color and burn old ones", async () => {
-    const ColorsDeployment = await deployments.get("Colors");
 
-    const addr1Conn = Colors__factory.connect(ColorsDeployment.address, addr1);
+    const addr1Conn = Colors__factory.connect(colorsInstance.address, addr1);
 
     await addr1Conn.mixColors(0xab0000, 0x0000ef);
 

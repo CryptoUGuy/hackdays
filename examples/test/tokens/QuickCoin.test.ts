@@ -2,7 +2,7 @@ import { expect } from "chai";
 import { Signer } from "ethers";
 import { deployments, ethers } from "hardhat";
 
-import { QuickCoin, QuickCoin__factory } from "../typechain";
+import { QuickCoin, QuickCoin__factory } from "../../typechain";
 
 describe("QuickCoin", function () {
   let quickCoinInstance: QuickCoin;
@@ -14,7 +14,8 @@ describe("QuickCoin", function () {
   it("should deploy", async () => {
     [owner, addr1] = await ethers.getSigners();
 
-    const QuickCoinDeployment = await deployments.get("QuickCoin");
+    const quickCoinFactory = new QuickCoin__factory(owner)
+    const QuickCoinDeployment = await quickCoinFactory.deploy()
 
     quickCoinInstance = QuickCoin__factory.connect(
       QuickCoinDeployment.address,

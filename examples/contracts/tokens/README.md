@@ -18,7 +18,7 @@ OpenZepplin's [Token Creation Wizard](https://docs.openzeppelin.com/contracts/4.
 
 Smart contracts that implement the ERC-20 standard interface define a single fungible token. Fungible tokens are indistingushable from each other and can be thought of like currencies. The smart contract implementation acts as a ledger for its specific token, and controls all logic around creation, burning and transfers. 
 
-See `contracts/QuickCoin.sol` and `test/QuickCoin.test.ts` for an example ERC-20 based on OpenZepplin's boilerplate that burns 0.125% of each transfer from the sender's balance.
+See `contracts/tokens/QuickCoin.sol` and `test/tokens/QuickCoin.test.ts` for an example ERC-20 based on OpenZepplin's boilerplate that burns 0.125% of each transfer from the sender's balance.
 
 Refer to OpenZeppelin's ERC20 [Documentation](https://docs.openzeppelin.com/contracts/4.x/erc20) and [API Reference](https://docs.openzeppelin.com/contracts/4.x/api/token/erc20) for further discussion.
 
@@ -28,7 +28,7 @@ Refer to OpenZeppelin's ERC20 [Documentation](https://docs.openzeppelin.com/cont
 Smart contracts that implement the ERC-721 standard interface represent a collection of non-fungible tokens. Each token is uniquely identifable and can be associated with different meta-data.
 
 
-See `contracts/Colors.sol` and `test/Colors.test.ts` for an example ERC-721 based on the OpenZepplin's boilerplate that mints tokenIds representing RGB color values and allows for different tokens to be mixed to create new ones.
+See `contracts/tokens/Colors.sol` and `test/tokens/Colors.test.ts` for an example ERC-721 based on the OpenZepplin's boilerplate that mints tokenIds representing RGB color values and allows for different tokens to be mixed to create new ones.
 
 Refer to OpenZeppelin's ERC721 [Documentation](https://docs.openzeppelin.com/contracts/4.x/erc721) and [API Reference](https://docs.openzeppelin.com/contracts/4.x/api/token/erc721) for further discussion.
 
