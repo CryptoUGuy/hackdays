@@ -23,9 +23,12 @@ nvm use 16.13.1
 
 - [Alchemy](https://www.alchemy.com/) account
 
-- Sample mnemonic (Get a 12 words mnemonic from [https://iancoleman.io/bip39/](https://iancoleman.io/bip39/) or install Coinbase Wallet from the Corporate App Store. 
+- Sample mnemonic (Get a 12 words mnemonic from [https://iancoleman.io/bip39/](https://iancoleman.io/bip39/) or install Coinbase Wallet from the Corporate App Store.
 
-- Get Ropsten Ether (Get from https://faucet.egorfine.com/)
+- Get Ropsten Ether from a faucet:
+    * [https://faucet.egorfine.com](https://faucet.egorfine.com/)
+    * [https://www.moonborrow.com/](https://www.moonborrow.com/) 
+    * [https://faucet.metamask.io/](https://faucet.metamask.io/)
 
 - Get an Etherscan API Key (Check instructions [here](https://docs.etherscan.io/getting-started/viewing-api-usage-statistics))
 
@@ -36,7 +39,7 @@ nvm use 16.13.1
 ```shell
 $ git clone https://github.com/CryptoUGuy/awesome-nft-resources.git
 
-$ cd boilerplate 
+$ cd boilerplate
 
 $ npm install
 ```
@@ -94,7 +97,7 @@ Assuming you have setup the .env file and you have previously deployed a smart c
 Then, copy the deployment address and paste it in to replace `DEPLOYED_CONTRACT_ADDRESS` in this command:
 
 ```shell
-$ npm run verify:ropsten DEPLOYED_CONTRACT_ADDRESS <Params> 
+$ npm run verify:ropsten DEPLOYED_CONTRACT_ADDRESS <Params>
 ```
 
 Note: For complex arguments see [this](https://hardhat.org/plugins/nomiclabs-hardhat-etherscan.html#complex-arguments)
