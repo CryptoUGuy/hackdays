@@ -10,11 +10,6 @@ import { predeploys, getContractInterface } from '@eth-optimism/contracts'
 import { Watcher } from '@eth-optimism/core-utils'
 
 import { L1Contract__factory, L2Contract__factory } from '../../typechain'
-// const l1StandardBridgeArtifact = require(`@eth-optimism/contracts/artifacts/contracts/L1/messaging/L1StandardBridge.sol/L1StandardBridge.json`)
-// const factory__L1StandardBridge = new ethers.ContractFactory(l1StandardBridgeArtifact.abi, l1StandardBridgeArtifact.bytecode)
-
-// const l2StandardBridgeArtifact = require(`@eth-optimism/contracts/artifacts/contracts/L2/messaging/L2StandardBridge.sol/L2StandardBridge.json`)
-// const factory__L2StandardBridge = new ethers.ContractFactory(l2StandardBridgeArtifact.abi, l2StandardBridgeArtifact.bytecode)
 
 async function main() {
     // Set up our RPC provider connections.
@@ -71,6 +66,9 @@ async function main() {
     const l2Instance = await l2Factory.deploy()
     console.log("Contracts have been deployed")
 
+    const valueOnL2Before = await l2Instance.dataReceived()
+    console.log("Value on L2 Before", valueOnL2Before.toNumber())
+
     const valueToSendToL2 = 100;
     const tx = await l1Instance.doTheThing(l2Instance.address, valueToSendToL2);
     console.log(`Value sent to L2 ${valueToSendToL2}`)
@@ -78,14 +76,13 @@ async function main() {
     await tx.wait()
 
     // Wait for the message to be relayed to L2.
-    console.log('Waiting for deposit to be relayed to L2...')
+    console.log('Waiting for message to be relayed to L2...')
     const [msgHash1] = await watcher.getMessageHashesFromL1Tx(tx.hash)
 
-    const receipt = await watcher.getL2TransactionReceipt(msgHash1, true)
-    console.log("receipt", receipt)
+    await watcher.getL2TransactionReceipt(msgHash1, true)
 
-    const valueOnL2 = await l2Instance.dataReceived()
-    console.log("Value on L2", valueOnL2.toNumber())
+    const valueOnL2After = await l2Instance.dataReceived()
+    console.log("Value on L2 After", valueOnL2After.toNumber())
 }
 
 main()
