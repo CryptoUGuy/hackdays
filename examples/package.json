@@ -5,6 +5,7 @@
     "@nomiclabs/hardhat-etherscan": "^2.1.8",
     "@nomiclabs/hardhat-waffle": "^2.0.1",
     "@openzeppelin/contracts": "^4.4.2",
+    "@openzeppelin/contracts-upgradeable": "^4.4.2",
     "@typechain/ethers-v5": "^7.2.0",
     "@typechain/hardhat": "^2.3.1",
     "@types/chai": "^4.3.0",
@@ -53,6 +54,11 @@
     "test:simpleNFTMarketplace": "hardhat test test/nft-marketplace/SimpleNFTMarketplace.test.ts",
     "test:concertFactory": "hardhat test test/concert-tickets/ConcertFactory.test.ts",
     "test:simpleERC1155": "hardhat test test/erc1155/SimpleERC1155.test.ts",
-    "test:simpleConcertTicket": "hardhat test test/concert-tickets/SimpleConcertTicket.test.ts"
+    "test:simpleConcertTicket": "hardhat test test/concert-tickets/SimpleConcertTicket.test.ts",
+    "bridging:sample": "TS_NODE=true ts-node ./scripts/bridging/L1L2Bridge.ts"
+  },
+  "dependencies": {
+    "@eth-optimism/contracts": "canary",
+    "@eth-optimism/core-utils": "canary"
   }
 }
