@@ -36,7 +36,7 @@
 
 [Creating your first NFT smart contract](https://docs.opensea.io/docs/creating-an-nft-contract)
 
-### Hackathons
+### Hackathons with sample projects
 
 [NFT Hack 2021](https://showcase.ethglobal.com/nfthack)
 
@@ -86,6 +86,54 @@
 
 [LooksRare](https://looksrare.org/)
 
+### DAO Development Resources
+
+[Aragon](https://aragon.org/)
+
+[Gnosis Safe](https://gnosis-safe.io/)
+
+[Gnosis Safe Docs](https://docs.gnosis-safe.io/)
+
+[SafeSnap](https://blog.gnosis.pm/introducing-safesnap-the-first-in-a-decentralized-governance-tool-suite-for-the-gnosis-safe-ea67eb95c34f)
+
+[Snapshot](https://snapshot.org/#/)
+
+[Tribute](https://github.com/openlawteam/tribute-contracts)
+
+[Kleros](https://kleros.io/)
+
+[DAO Haus](https://daohaus.club/)
+
+[MetaGame](https://wiki.metagame.wtf/)
+
+[Proof of humanity](https://www.proofofhumanity.id/)
+
+[CrowdSF source code](https://github.com/gnasamx/CrowdSF)
+
+[Crowdsource example in Solidity I](https://github.com/pumpchaser/crowdsource-solidity/blob/master/ethereum/contracts/Campaign.sol)
+
+[Crowdsale example in Solidity II](https://github.com/tamobee/Crowdsale-Advanced-Solidity)
+
+[Gnosis Safe Contracts](https://github.com/gnosis/safe-contracts)
+
+[Introducing Humanity](https://medium.com/marbleorg/introducing-humanity-90ddf9ead235)
+
+[Compound Governance](https://compound.finance/docs/governance)
+
+[GovernorAlpha Compound Contracts](https://github.com/compound-finance/compound-protocol/blob/master/contracts/Governance/GovernorAlpha.sol)
+
+[Element's Governance Model](https://medium.com/element-finance/an-introduction-to-elements-governance-model-efea13d1c7ee)
+
+[Element's Governance Technical Architecture](https://medium.com/element-finance/element-governance-a-technical-architecture-overview-2d0f72bd278a)
+
+[Element Finance DAO Governance Smart Contracts](https://github.com/element-fi/council)
+
+[PieDAO Contracts for distribution of governance mining rewards](https://github.com/pie-dao/dough-staking)
+
+[Parking DAO source code](https://github.com/f-o-a-m/parking-dao)
+
+[Simple DAO source code](https://github.com/partylikeits1983/simpleDAO)
+
 ### NFT Development Resources
 
 [Opensea testnet](https://testnets.opensea.io/)
@@ -129,3 +177,4 @@
 [Smart contract lottery using Chainlink](https://github.com/PatrickAlphaC/smartcontract-lottery)
 
 [Lazy minting](https://nftschool.dev/tutorial/lazy-minting/#how-it-works)
+

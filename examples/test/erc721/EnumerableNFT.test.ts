@@ -22,7 +22,7 @@ describe("EnumerableNFT tests", () => {
 
     const factory = new EnumerableNFT__factory(user1Signer)
 
-    instance = await factory.deploy();
+    instance = await factory.deploy("EnumerableNFT", "ENUFT");
   })
 
   it("get enumerable information", async () => {

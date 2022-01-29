@@ -26,7 +26,7 @@ describe("SimpleNFTMarketplace tests", () => {
 
         // create an NFT 
         const enumerableNFTFactory = new EnumerableNFT__factory(sellerSigner)
-        nftInstance = await enumerableNFTFactory.deploy()
+        nftInstance = await enumerableNFTFactory.deploy("SampleNFT", "SNFT")
         nftAddress = nftInstance.address
 
         const buyerAddress = await buyerSigner.getAddress()
