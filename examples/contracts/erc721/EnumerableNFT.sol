@@ -34,7 +34,9 @@ contract EnumerableNFT is ERC721, ERC721Enumerable {
 
     Counters.Counter private _tokenIdCounter;
 
-    constructor() ERC721("MetadataNFT", "MetadataNFT") {}
+    constructor(string memory _name, string memory _symbol)
+        ERC721(_name, _symbol)
+    {}
 
     function safeMint(address to) public {
         uint256 tokenId = _tokenIdCounter.current();
