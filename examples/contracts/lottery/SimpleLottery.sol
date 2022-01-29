@@ -22,7 +22,7 @@
 
 // SPDX-License-Identifier: MIT
 
-pragma solidity 0.8.4;
+pragma solidity 0.8.9;
 
 contract SimpleLottery {
     uint256 public constant TICKET_PRICE = 0.01 ether;

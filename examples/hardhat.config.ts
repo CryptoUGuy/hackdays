@@ -15,7 +15,7 @@ const MAINNET_NETWORK_ID = 1
 const TEST_NETWORK_ID = 1337
 
 const config: HardhatUserConfig = {
-  solidity: "0.8.4",
+  solidity: "0.8.9",
   namedAccounts: {
     deployer: 0
   },
@@ -31,7 +31,7 @@ const config: HardhatUserConfig = {
       accounts: {
         mnemonic: process.env.MNEMONIC || ""
       }
-    },
+    }
   },
   etherscan: {
     apiKey: process.env.ETHERSCAN_API_KEY,

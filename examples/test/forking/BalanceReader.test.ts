@@ -4,6 +4,8 @@ import { formatUnits, parseUnits } from "ethers/lib/utils";
 
 import { BalanceReader, BalanceReader__factory } from '../../typechain'
 
+const onlyIfForkingMode = process.env.ENABLE_FORKING ? it : it.skip
+
 describe("BalanceReader tests", () => {
     let instance: BalanceReader
     let accounts: Signer[]
@@ -12,7 +14,7 @@ describe("BalanceReader tests", () => {
     const ALAMEDA_ADDRESS = "0x0F4ee9631f4be0a63756515141281A3E2B293Bbe"
     const USDC_DECIMALS = 6
 
-    it("gets Alameda balance", async () => {
+    onlyIfForkingMode("gets Alameda balance", async () => {
         accounts = await ethers.getSigners();
         const factory = new BalanceReader__factory(accounts[0])
 
