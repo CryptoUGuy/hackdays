@@ -12,7 +12,7 @@ import "@nomiclabs/hardhat-ethers"
 dotenv.config();
 
 const MAINNET_NETWORK_ID = 1
-const TEST_NETWORK_ID = 1337
+const TEST_NETWORK_ID = 31337
 
 const config: HardhatUserConfig = {
   solidity: "0.8.4",
