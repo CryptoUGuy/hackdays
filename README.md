@@ -1,8 +1,7 @@
-# Awesome list of NFT Resources
+# Awesome List of Smart Contract & NFTs Resources
 
-## Overview
 
-### Articles
+### NFT Background Articles
 
 [A beginner’s guide to NFTs](https://linda.mirror.xyz/df649d61efb92c910464a4e74ae213c4cab150b9cbcc4b7fb6090fc77881a95d)
 
@@ -18,17 +17,62 @@
 
 [ERC721x: A Smarter Token for the Future of Crypto Collectibles](https://medium.com/loom-network/erc721x-a-smarter-token-for-the-future-of-crypto-collectibles-335ba5f706d1)
 
-### Standards
 
-[ERC721](https://eips.ethereum.org/EIPS/eip-721)
+### Solidity Basics
 
-[ERC721x](https://github.com/loomnetwork/erc721x)
+[Smart Contract Background](https://ethereum.org/en/developers/docs/smart-contracts/)
 
-[ERC1155](https://github.com/ethereum/eips/issues/1155)
+[Solidity By Example](https://docs.soliditylang.org/en/v0.8.11/solidity-by-example.html)
 
-[ERC1155](https://ethereum.org/en/developers/docs/standards/tokens/erc-1155/)
+[Solidity Language Reference](https://docs.soliditylang.org/en/v0.8.11/layout-of-source-files.html)
+ 
+[Solidity Language Cheatsheets](https://docs.soliditylang.org/en/v0.8.11/cheatsheet.html#)
 
-### Tutorials
+[Math In Solidity Series](https://medium.com/coinmonks/math-in-solidity-part-1-numbers-384c8377f26d)
+
+
+### Token Standards
+
+[ERC20 Interface Specification](https://eips.ethereum.org/EIPS/eip-20)
+
+[ERC721 Interface Specification](https://eips.ethereum.org/EIPS/eip-721)
+
+[ERC721x Extension Specification](https://github.com/loomnetwork/erc721x)
+
+[ERC1155 Interface Specification](https://github.com/ethereum/eips/issueds/1155)
+
+[Developer Docs ERC20](https://ethereum.org/en/developers/docs/standards/tokens/erc-20/)
+
+[Developer Docs ERC721](https://ethereum.org/en/developers/docs/standards/tokens/erc-721/)
+
+[Developer Docs ERC1155](https://ethereum.org/en/developers/docs/standards/tokens/erc-1155/)
+
+
+### Contract Libraries & Tools
+
+[OpenZeppelin Core Token Library](https://docs.openzeppelin.com/contracts/4.x/tokens)
+
+[OpenZeppelin DAO & OnChain Governance Library](https://docs.openzeppelin.com/contracts/4.x/governance)
+
+[OpenZeppelin Access Control Library](https://docs.openzeppelin.com/contracts/4.x/access-control)
+
+[OpenZeppelin SafeMath, Payments, Cryptographic & Utility Libraries](https://docs.openzeppelin.com/contracts/4.x/utilities)
+
+[OpenZeppelin Token Bootstrap Wizard](https://docs.openzeppelin.com/contracts/4.x/wizard)
+
+
+### Testing & Debugging
+
+[Testing With Hardhat & Waffle](https://hardhat.org/guides/waffle-testing.html#testing)
+
+[Basic Testing Patterns](https://ethereum-waffle.readthedocs.io/en/latest/basic-testing.html)
+
+[Waffle Example Tests](https://github.com/EthWorks/Waffle/tree/master/examples)
+
+[Debugging With Hardhat Network](https://hardhat.org/hardhat-network/)
+
+
+### Guided Tutorials
 
 [Cryptozombies Tutorial](https://cryptozombies.io/en/lesson/5)
 
@@ -36,13 +80,20 @@
 
 [Creating your first NFT smart contract](https://docs.opensea.io/docs/creating-an-nft-contract)
 
+
+### Code Walk Throughs
+
+[Annotated Uniswap V2 Walkthru](https://ethereum.org/cs/developers/tutorials/uniswap-v2-annotated-code/)
+
+
 ### Hackathons with sample projects
 
 [NFT Hack 2021](https://showcase.ethglobal.com/nfthack)
 
 [NFT Hack 2022](https://showcase.ethglobal.com/nfthack2022)
 
-### Games
+
+### Popular Games
 
 [Aavegotchi](https://aavegotchi.com/)
 
@@ -62,17 +113,19 @@
 
 [DeRace](https://derace.gitbook.io/derace/)
 
+
 ### Famous NFTs
 
 [CryptoPunks](https://www.larvalabs.com/cryptopunks)
 
-[BoredApeachtclub](https://boredapeyachtclub.com)
+[BoredApeYachtClub](https://boredapeyachtclub.com)
 
 [Crypto Dads](https://www.cryptodadsnft.com/)
 
 [Hashmasks](https://www.thehashmasks.com/)
 
 [Cool Cats](https://www.coolcatsnft.com/)
+
 
 ### NFT Marketplaces
 
@@ -85,6 +138,7 @@
 [Rarible](https://rarible.com/)
 
 [LooksRare](https://looksrare.org/)
+
 
 ### DAO Development Resources
 
@@ -134,13 +188,12 @@
 
 [Simple DAO source code](https://github.com/partylikeits1983/simpleDAO)
 
+
 ### NFT Development Resources
 
 [Opensea testnet](https://testnets.opensea.io/)
 
 [ERC-1155: The Final Token Standard on Ethereum](https://enjin.io/blog/erc-1155-token-standard-ethereum)
-
-[Open Zeppelin library](https://github.com/OpenZeppelin/openzeppelin-contracts)
 
 [Crypto Punks source code](https://github.com/larvalabs/cryptopunks)
 
@@ -157,8 +210,6 @@
 [NFT Storage](https://nft.storage/)
 
 [Pinata](https://www.pinata.cloud/)
-
-[Open Zeppelin Contracts Wizard](https://docs.openzeppelin.com/contracts/4.x/wizard)
 
 [Mint Your Own Punks in Original 24x24 Pixel Format or With 2X / 4X / 8X Zoom](https://github.com/cryptopunksnotdead/programming-cryptopunks/blob/master/01_mint.md)
 
@@ -177,4 +228,5 @@
 [Smart contract lottery using Chainlink](https://github.com/PatrickAlphaC/smartcontract-lottery)
 
 [Lazy minting](https://nftschool.dev/tutorial/lazy-minting/#how-it-works)
+
 
