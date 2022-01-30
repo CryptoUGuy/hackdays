@@ -1,6 +1,6 @@
 import { expect } from "chai";
 import { Signer } from "ethers";
-import { deployments, ethers } from "hardhat";
+import { ethers } from "hardhat";
 
 import { Colors, Colors__factory } from "../../typechain";
 

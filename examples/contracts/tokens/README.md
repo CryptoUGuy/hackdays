@@ -34,5 +34,8 @@ Refer to OpenZeppelin's ERC721 [Documentation](https://docs.openzeppelin.com/con
 
 
 
+## ERC-1155
 
+The ERC-1155 interface standard allows for a single smart contract to govern multiple fungible and non-fungible tokens with a single contract deployment. It also supports transaction batching and atomic swaps between the assets it defines.
 
+See `contracts/tokens/Magic.sol` and `test/tokens/Magic.test.ts` for an example ERC-1155 contract based on OpenZepplin's boilerplate that allows users to enchant weapons with magic.
