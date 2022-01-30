@@ -102,7 +102,3 @@ describe("Donations tests", () => {
         })).to.be.revertedWith("not supported operation")
     })
 });
-// uint256 _targetAmount,
-// address _beneficiary,
-// uint256 _donationPeriodTimestamp,
-// string memory _description
