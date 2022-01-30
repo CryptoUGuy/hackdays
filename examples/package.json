@@ -56,7 +56,8 @@
     "test:simpleERC1155": "hardhat test test/erc1155/SimpleERC1155.test.ts",
     "test:simpleConcertTicket": "hardhat test test/concert-tickets/SimpleConcertTicket.test.ts",
     "bridging:sample": "TS_NODE=true ts-node ./scripts/bridging/L1L2Bridge.ts",
-    "test:nftAlbum": "hardhat test test/collector-album/NFTAlbum.test.ts"
+    "test:nftAlbum": "hardhat test test/collector-album/NFTAlbum.test.ts",
+    "test:donations": "hardhat test test/donations/Donations.test.ts"
   },
   "dependencies": {
     "@eth-optimism/contracts": "canary",
