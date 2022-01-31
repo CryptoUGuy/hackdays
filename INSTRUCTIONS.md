@@ -38,4 +38,6 @@ The list of examples include:
 
 Please check the folders for each example, some of them have a README.md file and other have comments within the smart contract.
 
+Each contract has also a test case, check the [test](https://github.com/CryptoUGuy/hackdays/tree/main/examples/test) folder.
+
 Happy Hacking
